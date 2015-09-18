@@ -1,0 +1,28 @@
+%header
+  %div.header-left
+    %h1.logo Progate
+
+  %div.header-right
+    %ul
+      %li#language-show.header-menu 学ぶ▼
+      %ul#language-list.hide-list
+        %li HTML
+        %li PHP
+        %li iQuary
+      %li.header-menu ログイン
+      %li#contact-show.header-menu お問い合わせ
+
+  %div.slideshow
+    %div#carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
+      %ol.carousel-indicators
+        %li.active{'data-target' => '#carousel-example-generic', 'data-slide-to' => '0'}
+        %li{'data-target' => '#carousel-example-generic', 'data-slide-to' => '1'}
+        %li{'data-target' => '#carousel-example-generic', 'data-slide-to' => '2'}
+
+      %div.carousel-inner
+        %div.item.active
+          %img{src: 'http://prog-8.com/images/html_code5.png'}
+        %div.item
+          %img{src: 'http://prog-8.com/images/php_code5.png'}
+        %div.item
+          %img{src: 'http://prog-8.com/images/jquery_code5.png'}
